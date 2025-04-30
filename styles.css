@@ -1,0 +1,10 @@
+/* Hide copy button when blocking is enabled */
+button[aria-label="Copy message"].hidden {
+    display: none !important;
+}
+
+/* Prevent text selection when blocking is enabled */
+.copy-disabled {
+    user-select: none !important;
+    -webkit-user-select: none !important;
+} 
